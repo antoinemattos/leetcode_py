@@ -1,0 +1,49 @@
+[tool.poetry]
+name = "leetcode-py"
+version = "0.1.0"
+description = ""
+authors = ["ams <antoine.mattos@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.2"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.1.0"
+pre-commit = "^3.5.0"
+pyright = "^1.1.332"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+testpaths = "tests"
+python_files = "test_*.py"
+python_functions = "test_*"
+python_classes = "Test* *Tests"
+addopts = "-vv -x"
+asyncio_mode = "auto"
+pythonpath = ["."]
+
+[tool.ruff]
+select = [
+    "E",  # pycodestyle
+    "F",  # pyflakes
+    "UP", # pyupgrade
+]
+
+[tool.black]
+line-length = 88
+target-version = ['py312']
+include = '\.pyi?$'
+
+[tool.pyright]
+exclude = ["**/__pycache__", ".venv/"]
+venv = ".venv"
+reportMissingImports = true
+pythonVersion = "3.12"
+pythonPlatform = "Linux"
