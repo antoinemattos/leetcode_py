@@ -1,7 +1,7 @@
 from leetcode_py.contains_duplicate import Solution
 
 
-def test_example_1():
+def test_containsDuplicate_1():
     # Arrange
     solution = Solution()
     input = [1, 2, 3, 1]
@@ -14,7 +14,7 @@ def test_example_1():
     assert result == output
 
 
-def test_example_2():
+def test_containsDuplicate_2():
     # Arrange
     solution = Solution()
     input = [1, 2, 3, 4]
@@ -27,7 +27,7 @@ def test_example_2():
     assert result == output
 
 
-def test_example_3():
+def test_containsDuplicate_3():
     # Arrange
     solution = Solution()
     input = [1, 1, 1, 3, 3, 4, 3, 2, 4, 2]
