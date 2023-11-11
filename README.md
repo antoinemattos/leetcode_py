@@ -10,3 +10,4 @@ Solutions to leetcode problems in python.
 | ------- | -------- | ---- |
 | Contains duplicate | [contains_duplicat.py](leetcode_py/contains_duplicate.py) | <https://leetcode.com/problems/contains-duplicate/> |
 | Valid anagram | [valid_anagram.py](leetcode_py/valid_anagram.py) | <https://leetcode.com/problems/valid-anagram/> |
+| Two sum | [two_sum.py](leetcode_py/two_sum.py) | <https://leetcode.com/problems/two-sum/> |
