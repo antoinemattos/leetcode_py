@@ -11,6 +11,7 @@ Solutions to leetcode problems in python.
 | Problem | Solution | Link |
 | ------- | -------- | ---- |
 | Max consecutive ones | [max_consecutive_ones.py](leetcode_py/max_consecutive_ones.py) | <https://leetcode.com/problems/max-consecutive-ones/> |
+| Find numbers with even number of digits | [even_number_of_digits.py](leetcode_py/even_number_of_digits.py) | <https://leetcode.com/problems/find-numbers-with-even-number-of-digits/> |
 
 ### Neetcode roadmap
 
